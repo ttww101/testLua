@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    wax_start("hello.lua", nil); 
+    wax_start("UIWebView.lua", nil);
     return YES;
 }
 

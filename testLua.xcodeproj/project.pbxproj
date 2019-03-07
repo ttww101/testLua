@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		942513112230F42200FACD96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942513102230F42200FACD96 /* AppDelegate.m */; };
-		942513142230F42200FACD96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942513132230F42200FACD96 /* ViewController.m */; };
 		942513172230F42200FACD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942513152230F42200FACD96 /* Main.storyboard */; };
 		942513192230F42300FACD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942513182230F42300FACD96 /* Assets.xcassets */; };
 		9425131C2230F42300FACD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9425131A2230F42300FACD96 /* LaunchScreen.storyboard */; };
 		9425131F2230F42300FACD96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9425131E2230F42300FACD96 /* main.m */; };
-		942513262231117300FACD96 /* hello.lua in Resources */ = {isa = PBXBuildFile; fileRef = 942513252231117300FACD96 /* hello.lua */; };
-		94251329223111BC00FACD96 /* ViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 94251328223111BC00FACD96 /* ViewController.lua */; };
+		942513262231117300FACD96 /* UIWebView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 942513252231117300FACD96 /* UIWebView.lua */; };
+		942513302231400100FACD96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9425132F2231400100FACD96 /* ViewController.m */; };
 		FACBDBA61F6ACF9A9A52E755 /* libPods-testLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1037CB87F095D7436B21483 /* libPods-testLua.a */; };
 /* End PBXBuildFile section */
 
@@ -23,15 +22,14 @@
 		9425130C2230F42200FACD96 /* testLua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9425130F2230F42200FACD96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		942513102230F42200FACD96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		942513122230F42200FACD96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		942513132230F42200FACD96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		942513162230F42200FACD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		942513182230F42300FACD96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9425131B2230F42300FACD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9425131D2230F42300FACD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9425131E2230F42300FACD96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		942513252231117300FACD96 /* hello.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = hello.lua; sourceTree = "<group>"; };
-		94251328223111BC00FACD96 /* ViewController.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController.lua; sourceTree = "<group>"; };
+		942513252231117300FACD96 /* UIWebView.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = UIWebView.lua; sourceTree = "<group>"; };
+		9425132E2231400100FACD96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9425132F2231400100FACD96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE01423C61FDE65FE63FBA74 /* Pods-testLua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testLua.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testLua/Pods-testLua.debug.xcconfig"; sourceTree = "<group>"; };
 		F1037CB87F095D7436B21483 /* libPods-testLua.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testLua.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,8 +70,8 @@
 				942513272231117C00FACD96 /* Lua */,
 				9425130F2230F42200FACD96 /* AppDelegate.h */,
 				942513102230F42200FACD96 /* AppDelegate.m */,
-				942513122230F42200FACD96 /* ViewController.h */,
-				942513132230F42200FACD96 /* ViewController.m */,
+				9425132E2231400100FACD96 /* ViewController.h */,
+				9425132F2231400100FACD96 /* ViewController.m */,
 				942513152230F42200FACD96 /* Main.storyboard */,
 				942513182230F42300FACD96 /* Assets.xcassets */,
 				9425131A2230F42300FACD96 /* LaunchScreen.storyboard */,
@@ -86,8 +84,7 @@
 		942513272231117C00FACD96 /* Lua */ = {
 			isa = PBXGroup;
 			children = (
-				942513252231117300FACD96 /* hello.lua */,
-				94251328223111BC00FACD96 /* ViewController.lua */,
+				942513252231117300FACD96 /* UIWebView.lua */,
 			);
 			path = Lua;
 			sourceTree = "<group>";
@@ -167,9 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94251329223111BC00FACD96 /* ViewController.lua in Resources */,
 				9425131C2230F42300FACD96 /* LaunchScreen.storyboard in Resources */,
-				942513262231117300FACD96 /* hello.lua in Resources */,
+				942513262231117300FACD96 /* UIWebView.lua in Resources */,
 				942513192230F42300FACD96 /* Assets.xcassets in Resources */,
 				942513172230F42200FACD96 /* Main.storyboard in Resources */,
 			);
@@ -203,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942513142230F42200FACD96 /* ViewController.m in Sources */,
+				942513302231400100FACD96 /* ViewController.m in Sources */,
 				9425131F2230F42300FACD96 /* main.m in Sources */,
 				942513112230F42200FACD96 /* AppDelegate.m in Sources */,
 			);
