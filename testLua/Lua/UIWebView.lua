@@ -7,7 +7,8 @@ self.super:viewDidLoad(self)
 --init web view
 local webView = UIWebView:new()
 webView:setFrame(CGRect(0, 0, 375, 670))
-local url = "http://okoooy.com" --local variable is for Lua
+local url = "https://www.google.com" --local variable is for Lua
+--http://okoooy.com
 local nsurl = NSURL:URLWithString(url)
 local nsrequest = NSURLRequest:requestWithURL(nsurl)
 webView:loadRequest(nsrequest)
