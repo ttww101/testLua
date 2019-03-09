@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-# import <wax/wax.h>
+#import <wax/wax.h>
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface AppDelegate ()
 

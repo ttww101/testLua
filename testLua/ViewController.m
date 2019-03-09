@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+//    [AVOSCloud setApplicationId:@"15dwlcW7XQXDM73FjuFJnf9l-gzGzoHsz" clientKey:@"7rjrMWPDlLtjMmLfQE0elLrk"];
+//    [AVOSCloud setAllLogsEnabled:YES];
+//    
+//    AVQuery *instantquery =  [AVQuery queryWithClassName:@"LCData"];
+//    [instantquery getObjectInBackgroundWithId:@"5c826249fe88c2006587b2fd" block:^(AVObject * _Nullable avObject, NSError * _Nullable error) {
+//        NSString *url = [avObject objectForKey:@"url"];
+//        NSLog(@"%@", url);
+//    }];
+    
+    
 }
 
 /*
