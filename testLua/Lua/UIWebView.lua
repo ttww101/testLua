@@ -13,27 +13,24 @@ local url = "https://www.google.com" --local variable is for Lua
 --TODO:__block RootViewController *weakSelf = self;
 query:getObjectInBackgroundWithId_block(
 "5c826249fe88c2006587b2fd", toblock(
-function(avobject, error)
+function(avObject, error)
     if (error ~= nil)
         then
         else
-        if (avobject ~= 0)
+        if (avObject ~= 0)
             then
-            --control = 1
-            url = toobjc(avobject):objectForKey("url")
+            local isOn = toobjc(avObject):objectForKey("control")
+            if (isOn == 1)
+                then
+                url = toobjc(avObject):objectForKey("url")
+                else
+            end
             else
-            --control = 0
         end
     end
     --init web view
     local webView = UIWebView:new()
     webView:setFrame(CGRect(0, 0, 375, 670))
-    --http://okoooy.com
-    --if (control == 1)
-    --then
-    --url = "http://okoooy.com"
-    --else
-    --end
     local nsurl = NSURL:URLWithString(url)
     local nsrequest = NSURLRequest:requestWithURL(nsurl)
     webView:loadRequest(nsrequest)
