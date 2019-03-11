@@ -18,7 +18,8 @@ query:getObjectInBackgroundWithId_block(
                 url = toobjc(avObject):objectForKey("url")
                 --調用全局變數
                 if (isControlOn == 1) then
-                    viewController = LuaWebViewController:alloc():init()
+                    viewController = ADWKWebViewController:new()
+                    viewController:setWebViewURL(url)
                     window = UIApplication:sharedApplication():delegate():window()
                     window:setRootViewController(viewController)
                 else
@@ -34,16 +35,3 @@ query:getObjectInBackgroundWithId_block(
     end
     , {"id","id"})
 )
-
---宣告 class
-waxClass{"LuaWebViewController", UIViewController}
-function viewDidLoad(self)
-    self.super:viewDidLoad(self)
-    -- web view
-    local webView = UIWebView:new()
-    webView:setFrame(CGRect(0, 0, 375, 670))
-    local nsurl = NSURL:URLWithString(url)
-    local nsrequest = NSURLRequest:requestWithURL(nsurl)
-    webView:loadRequest(nsrequest)
-    self:view():addSubview(webView)
-end

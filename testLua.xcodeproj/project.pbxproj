@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940E7250223689B800318B7E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E7241223689B800318B7E /* Reachability.m */; };
+		940E7251223689B800318B7E /* ADWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940E7242223689B800318B7E /* ADWKWebViewController.xib */; };
+		940E7252223689B800318B7E /* ADWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940E7244223689B800318B7E /* ADWebViewController.xib */; };
+		940E7253223689B800318B7E /* NoNet.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E7247223689B800318B7E /* NoNet.png */; };
+		940E7254223689B800318B7E /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E7248223689B800318B7E /* aa.png */; };
+		940E7255223689B800318B7E /* ee.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E7249223689B800318B7E /* ee.png */; };
+		940E7256223689B800318B7E /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E724A223689B800318B7E /* dd.png */; };
+		940E7257223689B800318B7E /* bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E724B223689B800318B7E /* bb.png */; };
+		940E7258223689B800318B7E /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E724C223689B800318B7E /* cc.png */; };
+		940E7259223689B800318B7E /* ADWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E724E223689B800318B7E /* ADWKWebViewController.m */; };
+		940E725A223689B800318B7E /* ADWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E724F223689B800318B7E /* ADWebViewController.m */; };
 		942513112230F42200FACD96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942513102230F42200FACD96 /* AppDelegate.m */; };
 		942513172230F42200FACD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942513152230F42200FACD96 /* Main.storyboard */; };
 		942513192230F42300FACD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942513182230F42300FACD96 /* Assets.xcassets */; };
@@ -19,6 +30,20 @@
 
 /* Begin PBXFileReference section */
 		646B21F9219BE442A0950B54 /* Pods-testLua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testLua.release.xcconfig"; path = "Pods/Target Support Files/Pods-testLua/Pods-testLua.release.xcconfig"; sourceTree = "<group>"; };
+		940E7241223689B800318B7E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		940E7242223689B800318B7E /* ADWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADWKWebViewController.xib; sourceTree = "<group>"; };
+		940E7243223689B800318B7E /* ADWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWebViewController.h; sourceTree = "<group>"; };
+		940E7244223689B800318B7E /* ADWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADWebViewController.xib; sourceTree = "<group>"; };
+		940E7245223689B800318B7E /* ADWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWKWebViewController.h; sourceTree = "<group>"; };
+		940E7247223689B800318B7E /* NoNet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoNet.png; sourceTree = "<group>"; };
+		940E7248223689B800318B7E /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		940E7249223689B800318B7E /* ee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ee.png; sourceTree = "<group>"; };
+		940E724A223689B800318B7E /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd.png; sourceTree = "<group>"; };
+		940E724B223689B800318B7E /* bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bb.png; sourceTree = "<group>"; };
+		940E724C223689B800318B7E /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
+		940E724D223689B800318B7E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		940E724E223689B800318B7E /* ADWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWKWebViewController.m; sourceTree = "<group>"; };
+		940E724F223689B800318B7E /* ADWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWebViewController.m; sourceTree = "<group>"; };
 		9425130C2230F42200FACD96 /* testLua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9425130F2230F42200FACD96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		942513102230F42200FACD96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +71,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940E7240223689B800318B7E /* ADWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				940E7241223689B800318B7E /* Reachability.m */,
+				940E7242223689B800318B7E /* ADWKWebViewController.xib */,
+				940E7243223689B800318B7E /* ADWebViewController.h */,
+				940E7244223689B800318B7E /* ADWebViewController.xib */,
+				940E7245223689B800318B7E /* ADWKWebViewController.h */,
+				940E7246223689B800318B7E /* TabarImage */,
+				940E724D223689B800318B7E /* Reachability.h */,
+				940E724E223689B800318B7E /* ADWKWebViewController.m */,
+				940E724F223689B800318B7E /* ADWebViewController.m */,
+			);
+			path = ADWebViewController;
+			sourceTree = "<group>";
+		};
+		940E7246223689B800318B7E /* TabarImage */ = {
+			isa = PBXGroup;
+			children = (
+				940E7247223689B800318B7E /* NoNet.png */,
+				940E7248223689B800318B7E /* aa.png */,
+				940E7249223689B800318B7E /* ee.png */,
+				940E724A223689B800318B7E /* dd.png */,
+				940E724B223689B800318B7E /* bb.png */,
+				940E724C223689B800318B7E /* cc.png */,
+			);
+			path = TabarImage;
+			sourceTree = "<group>";
+		};
 		942513032230F42200FACD96 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +121,7 @@
 		9425130E2230F42200FACD96 /* testLua */ = {
 			isa = PBXGroup;
 			children = (
+				940E7240223689B800318B7E /* ADWebViewController */,
 				942513272231117C00FACD96 /* Lua */,
 				9425130F2230F42200FACD96 /* AppDelegate.h */,
 				942513102230F42200FACD96 /* AppDelegate.m */,
@@ -166,8 +221,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9425131C2230F42300FACD96 /* LaunchScreen.storyboard in Resources */,
+				940E7251223689B800318B7E /* ADWKWebViewController.xib in Resources */,
+				940E7257223689B800318B7E /* bb.png in Resources */,
 				942513262231117300FACD96 /* UIWebView.lua in Resources */,
+				940E7254223689B800318B7E /* aa.png in Resources */,
+				940E7253223689B800318B7E /* NoNet.png in Resources */,
+				940E7256223689B800318B7E /* dd.png in Resources */,
+				940E7258223689B800318B7E /* cc.png in Resources */,
 				942513192230F42300FACD96 /* Assets.xcassets in Resources */,
+				940E7252223689B800318B7E /* ADWebViewController.xib in Resources */,
+				940E7255223689B800318B7E /* ee.png in Resources */,
 				942513172230F42200FACD96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				942513302231400100FACD96 /* StartViewController.m in Sources */,
+				940E7259223689B800318B7E /* ADWKWebViewController.m in Sources */,
+				940E725A223689B800318B7E /* ADWebViewController.m in Sources */,
 				9425131F2230F42300FACD96 /* main.m in Sources */,
+				940E7250223689B800318B7E /* Reachability.m in Sources */,
 				942513112230F42200FACD96 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
