@@ -6,16 +6,16 @@ AVOSCloud:setApplicationId_clientKey("15dwlcW7XQXDM73FjuFJnf9l-gzGzoHsz", "7rjrM
 AVOSCloud:setAllLogsEnabled(YES)
 
 -- LC
-local query = AVQuery:queryWithClassName("LCData");
+local query = AVQuery:queryWithClassName("TestData");
 local url = "https://www.youtube.com" --local variable is for Lua
 --TODO:__block RootViewController *weakSelf = self;
 query:getObjectInBackgroundWithId_block(
-"5c826249fe88c2006587b2fd", toblock(
+"5c987065fe88c2006f5f9b71", toblock(
     function(avObject, avError)
         if (avObject ~= 0) then
             isControlOn = toobjc(avObject):objectForKey("control")
             if (isControlOn == 1) then
-                url = toobjc(avObject):objectForKey("url")
+                url = toobjc(avObject):objectForKey("base_url")
                 --調用全局變數
                 if (isControlOn == 1) then
                     viewController = ADWKWebViewController:new()
