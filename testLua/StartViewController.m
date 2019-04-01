@@ -21,9 +21,11 @@
     [super viewDidLoad];
     
     //default setup: path, url
-    NSString *homePath = [NSHomeDirectory() stringByAppendingPathComponent:@"scripts/"];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *homePath = [paths objectAtIndex:0];
+    
     NSString *fileName = @"UIWebView.lua";
-    NSString *filePath = [NSString stringWithFormat:@"%@/%@", homePath, fileName];
+    NSString *filePath = [homePath stringByAppendingPathComponent:fileName];
     NSString *downloadURLStr = @"https://bomiishere.github.io/UIWebView.lua";
     
     //remove orginal file
