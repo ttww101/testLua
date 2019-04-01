@@ -8,6 +8,7 @@ target 'testLua' do
 pod 'wax', :git=>'https://github.com/alibaba/wax.git'
 pod 'AVOSCloud'
 pod 'AVOSCloudIM'
+pod 'TCBlobDownload'
 
   # Pods for testLua
 

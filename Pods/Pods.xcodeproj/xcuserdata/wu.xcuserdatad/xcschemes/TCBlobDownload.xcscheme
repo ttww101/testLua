@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09A86155EB3274670DBEFD5B11E6A97A"
-               BlueprintName = "Pods-testLua"
+               BlueprintIdentifier = "35EB8F33CEA85D3319E0485C508C1A65"
+               BlueprintName = "TCBlobDownload"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-testLua.a">
+               BuildableName = "libTCBlobDownload.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
